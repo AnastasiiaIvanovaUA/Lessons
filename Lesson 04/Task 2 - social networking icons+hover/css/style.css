@@ -1,0 +1,26 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a{
+    text-align: center;
+    width: 46px;
+    height: 46px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 46px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+    background: rgb(179, 174, 174);
+}
+.youtube a:hover{
+    background: #d12e29; color: #fff;
+}
+.instagram a:hover{
+    background: #d11191; color: #fff;
+}
+.facebook a:hover{
+    background: #3b5998; color: #fff;
+}
+.pinterest a:hover{
+    background: #dd1822; color: #fff;
+}

@@ -1,0 +1,22 @@
+div{
+    width: 700px;
+    height: 500px;
+}
+ul li{
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    width: 180px;
+    height: 70px;
+    background: rgb(204, 209, 201);
+    text-align: center;
+}
+li:nth-child(3){
+    background: rgb(151, 231, 151);
+}
+li:nth-child(7){
+    background: rgb(151, 231, 151);
+}
+p{
+    position: relative;
+    top: 11px;
+}

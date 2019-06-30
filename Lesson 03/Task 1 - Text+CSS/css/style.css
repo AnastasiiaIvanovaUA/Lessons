@@ -1,0 +1,11 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+    text-align: justify;
+    text-align-last: right;
+    color: green;
+}
+

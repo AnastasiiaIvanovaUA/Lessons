@@ -1,0 +1,69 @@
+body{
+    background-image: url(../img/background.png);
+    background-size: cover;
+}
+i{
+    border: solid rgb(255, 255, 255);
+    border-width: 0 1px 1px 0;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    padding: 3px;
+    position: relative;
+}
+.right{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    left: 190px;
+    top: 20px;
+}
+.left{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    right: 190px;
+    top: 20px;
+
+}
+.down{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 5px;
+    height: 5px;
+    top: 450px;
+    left: 750px;
+
+}
+.header{
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+.paragraph{
+    font-family: 'Barlow', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 170px;
+}
+form{
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+input{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    width: 170px;
+    height: 40px;
+    color: white;
+    background: rgba(0, 0, 0, 0); 
+    border: none;
+    border-radius: 40px; 
+    border: 2px solid white;
+}

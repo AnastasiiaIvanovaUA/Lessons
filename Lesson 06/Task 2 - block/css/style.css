@@ -1,0 +1,47 @@
+.container{
+    width: 550px;
+    height: 300px;
+    border: 1px solid black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    background: rgb(0, 95, 32);
+    display: inline-flex;
+    justify-content: center;
+    margin: 15px;
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    background: rgb(60, 0, 121);
+    display: inline-flex;
+    justify-content: center;
+    margin: 15px;
+}
+.box3{
+    width: 150px;
+    height: 150px;
+    background: rgb(100, 0, 0);
+    display: inline-flex;
+    justify-content: center;
+    margin: 15px;
+}
+p{
+    position: relative;
+    top: 45px;
+}
+.box1:hover{
+    background: rgb(118, 255, 64);
+}
+.box2:hover{
+    background: rgb(93, 93, 247);
+}
+.box3:hover{
+    background: rgb(238, 53, 53);
+}

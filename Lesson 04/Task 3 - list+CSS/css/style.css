@@ -1,0 +1,18 @@
+ul{
+    list-style-type: square;
+}
+li:nth-child(1){
+    color: rgb(20, 141, 20);
+}
+li:nth-child(2){
+    color: rgb(243, 243, 61);
+}
+li:nth-child(3){
+    color: rgb(26, 26, 85);
+}
+li:nth-child(4){
+    color: rgb(248, 176, 41);
+}
+li:nth-child(5){
+    color: rgb(241, 34, 34);
+}

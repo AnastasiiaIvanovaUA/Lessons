@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 500px;
+    height: 40px;
+    background: #ffc629;
+}
+#content{
+    width: 500px;
+    height: 400px;
+    background: #ffff36;
+}
+h1, h2{
+    text-align: center;
+}
+.first_col{
+    text-align: right;
+    vertical-align: top;
+}
+table{
+    border-spacing: 10px;
+    margin-top: 0;
+}

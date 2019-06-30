@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>The World Of Fruit</h1>
+    </header>
+    <section id="content">
+        <h2>Fruit Survey</h2>
+        <form action="form.php" method="POST" target="_blank">
+            <table>
+                <tr>
+                    <td class="first_col">Name</td>
+                    <td class="second_col"><input type="text" name="name" required><td>
+                </tr>
+                <tr>
+                    <td class="first_col">Address</td>
+                    <td class="second_col"><input type="text" name="address" required><td>
+                </tr>
+                <tr>
+                    <td class="first_col">Email</td>
+                    <td class="second_col"><input type="email" name="email" required><td>
+                </tr>
+                <tr>
+                    <td class="first_col">How many pieces of fruit<br> do you eat per day?</td>
+                    <td class="second_col">
+                        <input type="radio" name="frit per day" value="zero" required>0<br>
+                        <input type="radio" name="frit per day" value="one">1<br>
+                        <input type="radio" name="frit per day" value="two">2<br>
+                        <input type="radio" name="frit per day" value="more">More than 2<td>
+                </tr>
+                <tr>
+                    <td class="first_col">My favorite fruit</td>
+                    <td class="second_col">
+                        <select name="favourite" multiple required>
+                            <option value="Apple">Apple</option>
+                            <option value="Banana">Banana</option>
+                            <option value="Plum">Plum</option>
+                            <option value="Pomegranate">Pomegranate</option>
+                            <option value="Peach">Peach</option>
+                        </select>
+                    <td>
+                </tr>
+                <tr>
+                    <td class="first_col">Would you like a<br> brochure?</td>
+                    <td class="second_col"><input type="checkbox" name="brochure" required><td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="submit" value="send">Submit</button></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+</body>
+</html>

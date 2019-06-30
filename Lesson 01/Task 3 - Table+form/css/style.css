@@ -1,0 +1,16 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+table{
+    border: 1px solid black;
+}
+th{
+    background-color: rgb(173, 109, 233);
+}
+td{
+    border: 1px solid black;
+}
+.input{
+    text-align: center;
+}

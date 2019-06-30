@@ -1,0 +1,13 @@
+div{
+    width: 700px;
+    height: 400px;
+    text-align: center;
+    padding: 120px;
+    background: rgb(231, 133, 185);
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 90px;
+    color: white;
+    text-shadow: 4px 4px 0px #000000, 9px 6px 0px #13c371, -6px -5px 0px #13c371, -5px 5px 0px #13c371, 8px -5px 0px #13c371, -4px 10px 0px #e87314, 5px 12px 0px #e87314;
+}
