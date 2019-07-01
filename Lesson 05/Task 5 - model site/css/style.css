@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    position: relative;
+    top: 10px;
+}
+div{
+    width: 900px;
+    height: 600px;
+}
+header{
+    width: 900px;
+    height: 70px;
+    background: rgb(161, 211, 161);
+}
+nav{
+    width: 900px;
+    height: 40px;
+    background: rgb(91, 179, 91);
+}
+#sidebar{
+    width: 240px;
+    height: 400px;
+    background: rgb(109, 109, 218);
+    float: left;
+}
+#content{
+    width: 420px;
+    height: 400px;
+    background: rgb(184, 184, 243);
+    float: left;
+}
+aside{
+    width: 240px;
+    height: 400px;
+    background: rgb(109, 109, 218);
+    float: left;
+}
+footer{
+    width: 900px;
+    height: 60px;
+    background: rgb(161, 211, 161);
+    position: relative;
+    top: 400px;
+}

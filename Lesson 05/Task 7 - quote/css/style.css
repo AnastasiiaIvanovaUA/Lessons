@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 800px;
+    height: 450px;
+    text-align: center;
+    background: lightgray;
+}
+h4{
+    color: rgb(231, 50, 50);
+    position: relative;
+    top: 130px;
+}
+h4:after{
+    content: "———————";
+    color: black;
+    margin: 0px 3px;
+}
+h4:before{
+    content: "———————";
+    color: black;
+    margin: 0px 3px;
+}
+#main{
+    font-style: italic;
+    position: relative;
+    top: 150px;
+    left: 300px;
+    text-align: left;
+    color: rgb(49, 49, 49);
+}
+#autor{
+    color: rgb(66, 134, 66);
+    position: relative;
+    top: 170px;
+    right: 140px;
+    text-align: right;
+    font-size: 15px;
+}
+#add{
+    position: relative;
+    top: 170px;
+    right: 140px;
+    text-align: right;
+    font-size: 14px;
+    color: rgb(49, 49, 49);
+}
+img{
+    position: relative;
+    top: 40px;
+    right: 190px;
+}
