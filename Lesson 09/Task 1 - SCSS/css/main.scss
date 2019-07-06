@@ -1,0 +1,118 @@
+$size-text: 15px;
+$colot-text: #8492af;
+$font-family: 'Roboto', sans-serif;
+@mixin price-box-size {
+    width: 250px;
+    height: 300px;
+}
+@mixin box-shadow {
+    -webkit-box-shadow: 0px 0px 71px -31px rgb(150, 150, 150);
+    -moz-box-shadow: 0px 0px 71px -31px rgb(150, 150, 150);
+    box-shadow: 0px 0px 71px -31px rgb(150, 150, 150);
+}
+$max-width: 1170px;
+$font-weight-bold: 700;
+$font-weight-reg: 400;
+$font-weight-thin: 100;
+$border-radius: 20px;
+$widht: 100%;
+
+
+body {
+    font-family: $font-family;
+}
+.container {
+    width: $widht;
+    max-width: $max-width;
+    margin: 0 auto;
+    text-align: center;
+}
+.box {
+    width: $widht;
+    max-width: $max-width;
+    display: flex;
+    justify-content: space-between;
+}
+.price {
+    @include price-box-size;
+    @include box-shadow;
+}
+h1 {
+    font-weight: $font-weight-thin;
+    font-size: 40px;
+    margin: 70px;
+}
+h2 {
+    font-weight: $font-weight-reg;
+    text-transform: uppercase;
+}
+p {
+    font-weight: $font-weight-reg;
+    font-size: $size-text;
+    color: $colot-text;
+}
+ul {
+    list-style: none;
+    font-size: 15px;
+    color: #8492af;
+    li {
+        margin: 15px auto;
+        position: relative;
+        right: 20px;
+    }
+    .yes:before {
+        content: '✔';
+        font-size: 12px;
+        padding: 3px;
+        color: #5584ff;
+        border: 1px solid #5584ff;
+        border-radius: 15px;
+        margin: 5px;
+    }
+    .no:before {
+        content: '✘';
+        font-size: 12px;
+        padding: 3px;
+        color: #fb82ab;
+        border: 1px solid #fb82ab;
+        border-radius: 20px;
+        margin: 5px;
+    }
+}
+#text {
+    font-weight: $font-weight-reg;
+    font-size: $size-text;
+    color: $colot-text;
+    margin-top: 70px;
+    line-height: 1.5;
+}
+input {
+    width: 170px;
+    height: 40px;
+    border-radius: $border-radius;
+    
+    border: none;
+    background: #5584ff;
+    color: white;
+
+    font-weight: $font-weight-bold;
+    margin-top: 30px;
+}
+table {
+    margin: 20px auto;
+}
+td {
+    vertical-align: bottom;
+}
+#element_doll {
+    font-size: 20px;
+    font-weight: $font-weight-bold;
+
+}
+#element_number {
+    font-size: 40px;
+    font-weight: $font-weight-bold;
+}
+#element_mon {
+    font-size: $size-text;
+}
