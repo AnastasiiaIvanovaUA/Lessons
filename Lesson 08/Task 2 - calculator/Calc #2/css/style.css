@@ -1,0 +1,78 @@
+body {
+    background: #e6e6e6;
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+}
+.scoreboard {
+    width: 1070px;
+    height: 210px;
+}
+.stand {
+    font-size: 25px;
+    position: relative;
+}
+.stand::before {
+    content: "≡  ";
+    font-size: 30px
+}
+.number {
+    font-size: 70px;
+    font-weight: 600;
+    text-align: right;
+    position: relative;
+    bottom: 30px;
+}
+table {
+    position: relative;
+    bottom: 80px;
+    font-size: 20px;
+}
+td {
+    width: 70px;
+    height: 40px;
+    text-align: center;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1070px;
+    height: 520px;
+}
+.buttonElement {
+    margin: 2px 2px;
+    width: 210px;
+    height: 100px;
+    background: #f0f0f0;
+    text-align: center;
+    font-size: 30px
+}
+#white {
+    background: #fafafa;
+}
+.buttonElement:hover {
+    background: #e6e6e6;
+}
+#white:hover {
+    background: #e6e6e6;
+}
+#blue:hover {
+    background: #2660ff;
+}
+a {
+    font-size: 19px;
+    font-weight: 600;
+    margin: 30px 30px;
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    border-bottom: 4px solid #2660ff;
+}
+.history {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 30px 30px;
+}

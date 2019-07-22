@@ -1,7 +1,7 @@
 *{
     margin: 20px;
 }
-.triangle_1{
+.triangleOne{
     border-width: 70px 70px 70px 70px;
     border-style: solid;
     border-color: red transparent transparent transparent;
@@ -9,7 +9,7 @@
     width: 1px;
     display: inline-block;
 }
-.triangle_2{
+.triangleTwo{
     border-width: 70px 70px 70px 70px;
     border-style: solid;
     border-color: transparent transparent red transparent;
@@ -17,7 +17,7 @@
     width: 1px;
     display: inline-block;
 }
-.triangle_3{
+.triangleThree{
     border-width: 70px 70px 70px 70px;
     border-style: solid;
     border-color: transparent transparent transparent green;
@@ -25,7 +25,7 @@
     width: 1px;
     display: inline-block;
 }
-.triangle_4{
+.triangleFour{
     border-width: 70px 70px 70px 70px;
     border-style: solid;
     border-color: transparent green transparent transparent;
@@ -33,7 +33,7 @@
     width: 1px;
     display: inline-block;
 }
-.triangle_5{
+.triangleFive{
     width: 1px;
 	height: 1px;
 	border-bottom: 100px solid yellow; 
@@ -41,21 +41,21 @@
     display: inline-block;
 
 }
-.triangle_6{
+.triangleSix{
     width: 0;
 	height: 0;
 	border-bottom: 100px solid yellow; 
     border-left: 100px solid transparent;
     display: inline-block;
 }
-.triangle_7{
+.triangleSeven{
     width: 0;
 	height: 0;
 	border-top: 100px solid blue; 
 	border-right: 100px solid transparent;
     display: inline-block;
 }
-.triangle_8{
+.triangleEight{
     width: 0;
 	height: 0;
 	border-top: 100px solid blue; 

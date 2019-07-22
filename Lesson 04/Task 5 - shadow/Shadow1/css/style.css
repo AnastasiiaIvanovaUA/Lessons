@@ -1,13 +1,13 @@
 div{
-    width: 700px;
-    height: 400px;
+    width: 1000px;
+    height: 600px;
     display: inline-block;
     text-align: center;
     background: gray;
 }
 p{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 700;
     color: gray;
 }
@@ -15,5 +15,5 @@ p{
     text-shadow: 4px 3px 4px rgb(48, 47, 47), -1px -1px 6px rgb(48, 47, 47);
 }
 #shadow_2{
-    text-shadow: 10px 4px 8px rgb(44, 43, 43), -1px -1px 1px rgb(44, 43, 43);
+    text-shadow: 9px 4px 10px rgb(44, 43, 43), -1px -1px 10px rgb(36, 36, 36);
 }

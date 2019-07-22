@@ -5,14 +5,14 @@ p{
     color: rgb(67, 26, 105);
 }
 .tag:before{
-    color: brown;
-    content: open-quote;
     font-family: 'Lato', sans-serif;
+    content: open-quote;
     font-size: 50px;
+    color: brown;
 }
 .tag:after{
-    color: brown;
-    content: close-quote;
     font-family: 'Lato', sans-serif;
+    content: close-quote;
     font-size: 50px;
+    color: brown;
 }

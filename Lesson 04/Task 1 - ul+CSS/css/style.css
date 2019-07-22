@@ -7,8 +7,8 @@ ul li{
     margin: 0 5px 5px 0;
     width: 180px;
     height: 70px;
-    background: rgb(204, 209, 201);
     text-align: center;
+    background: rgb(204, 209, 201);
 }
 li:nth-child(3){
     background: rgb(151, 231, 151);

@@ -1,0 +1,18 @@
+.container-fluid {
+    margin-top: 5px;
+}
+.col-md-1 {
+    height: 100px;
+    border:2px solid rgb(161, 161, 161);
+    outline: 2px solid rgb(0, 0, 0);
+}
+.col-md-3 {
+    height: 100px;
+    border:2px solid rgb(161, 161, 161);
+    outline: 2px solid rgb(0, 0, 0);
+}
+.col-md-2 {
+    height: 70px;
+    border:2px solid rgb(161, 161, 161);
+    outline: 2px solid rgb(0, 0, 0);
+}
