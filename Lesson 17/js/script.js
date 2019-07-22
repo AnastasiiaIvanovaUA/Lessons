@@ -19,9 +19,7 @@ elem.classList.toggle("text");
 console.log(document.body.innerHTML); // у "р" клас залишився, а вміст text пропав 
 
 // додати в список ul - 5 елементів li з текстом від 1 до 5
-
 var parent = document.getElementById('list');
-
 for (var i = 1; i <= 5; i++) {
 	var li = document.createElement('li');
 	li.innerHTML = i;

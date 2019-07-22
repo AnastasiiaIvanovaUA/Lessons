@@ -2,39 +2,38 @@
 var name = "Anastasiia";
 var student;
 student = name;
-
 console.log(student); // Anastasiia
+
 
 // Виконати завдання: 11%2
 var a = 11 % 2;
-
 console.log(a); // 1
 
 var b = 11;
 var c = 2;
 var d = b % c;
-
 console.log(d); // 1
+
+
 // Виконати завдання: 36%3
 var A = 36 % 3;
-
 console.log(A);  // 0
 
 var B = 36;
 var C = 3;
 var D = B % C;
-
 console.log(D); // 0
+
 
 // Виконати завдання: "5" + 2 
 var e = "5" + 2;
-
 console.log(e); // 52
+
 
 // Виконати завдання: "Hello" + 5
 var E = "Hello" + 5;
-
 console.log(E); // Hello5
+
 
 // Яка різниця між ++х і х++?
 x = 1;

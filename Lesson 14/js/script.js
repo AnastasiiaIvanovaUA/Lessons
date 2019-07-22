@@ -10,6 +10,7 @@ for(var i; true; i++){
    }
 }
 
+
 // Знайти суму елементів двовимірного масиву
 var arr = [
     [1, 7], 
@@ -24,6 +25,7 @@ for (var i = 0; i < arr.length; i++) {
 }
 console.log(sum); // 28
 
+
 // Розбити строку lorem по розділювачу ‘ ’ і вивести в консоль слова, довжиною більше 5
 var text = "Contrary to popular belief, lorem ipsum is not simply random text";
 var newArr = text.split(" ").filter(function(el) {
@@ -31,11 +33,13 @@ var newArr = text.split(" ").filter(function(el) {
 });
 console.log(newArr); // "Contrary", "popular", "belief", "simply", "random"
 
+
 // Дано масив [1, 9, 22, 7, 6] потрібно додати число 8 після 22
 var arr = ["1", "9", "22", "7", "6"];
 console.log(arr);
 arr.splice(3, 0, "8");
 console.log(arr); 
+
 
 // Написати функцію randomNumber(number), яка наповнює масив випадковими числами від 0 до 100, де number довжина масиву
 function randomNumber(number, max) {
@@ -44,6 +48,7 @@ function randomNumber(number, max) {
     });
 }
 console.log(randomNumber(5, 100));
+
 
 // Перевірити чи в масиві є число, яке вводиться через prompt()
 var arr = [2, 3, 6, 7];
@@ -55,6 +60,7 @@ for (var i = 0; i < arr.length; i++) {
         console.log("Промазав!");
     }
 }
+
 
 // За допомогою методу forEach знайти найдовше слово в строці lorem
 function longestWord (string) {
@@ -71,6 +77,7 @@ function longestWord (string) {
     return word;
 }
 console.log(longestWord()); // Contrary
+
 
 // За допомогою методу map створити масив квадратів масиву arr = [8, 6, 12, 10];
 var Array = [8, 6, 12, 10];

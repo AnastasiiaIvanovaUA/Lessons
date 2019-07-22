@@ -27,6 +27,32 @@ function mul () {
     document.getElementById("out").innerHTML = result;
 }
 
+//  ще один варіант для калькулятора, однак без взаємодії з користувачем 
+
+var calc = function(op) {
+
+    var Sum = function() {
+        var sum = 0;
+        for (item of arguments) {
+            console.log(item);
+            sum += item;
+        }
+        return sum;
+    }
+
+    var Mul = function() {
+        var mul = 1;
+        for (item of arguments) {
+            console.log(item);
+            sum *= item;
+        }
+        return mul;
+    }
+    return(op == "+") ? Sum : Mul;
+}
+console.log(calc("*")(1, 5, 8, 9));
+
+
 // Написати таймер Timer через прототипи з методами start(), stop(), reset()
 window.onload = () => {
     let hour = 0;

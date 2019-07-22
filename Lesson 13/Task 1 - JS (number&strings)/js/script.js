@@ -29,6 +29,7 @@ for (j = 0; j < a.length; j++) {
 }
 console.log(b); // Всі слова строки з Великої літери
 
+
 // Функція приймає дві строки і повертає більшу з них
 function FindingString (str1, str2) {
     var str1 = prompt("Введіть будь-який текст", );

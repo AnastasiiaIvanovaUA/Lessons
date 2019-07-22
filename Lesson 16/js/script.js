@@ -14,6 +14,7 @@ var person = {
 person.fullName = 'Ivan Ivanov';
 console.log(person)
 
+
 // Створіть об'єкт calculator з методами: sum () повертає суму двох значень, mul () повертає добуток двох значень
 var calculator = {
     number1: 2,
@@ -44,7 +45,6 @@ function Calculator() {
   }
   var calculator = new Calculator();
   calculator.number();
-  
 console.log("Сума: " + calculator.sum());
 console.log("Добуток: " + calculator.mul());
 

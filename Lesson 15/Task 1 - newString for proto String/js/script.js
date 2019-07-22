@@ -8,9 +8,9 @@ var skill = {
 }
 console.log(skill.FullName());
 
+
 // Додати метод newString() в прототип String, який буде робити першу і останню літеру строки великою
 var text = "lorem ipsum is simply dummy elit";
-
 function lastLetterToUpperCase(str) {
   str = str.split(' ');
   arr = [];
@@ -22,10 +22,9 @@ function lastLetterToUpperCase(str) {
   return string;
 }
 console.log(lastLetterToUpperCase(text));
-
 function firstLetterToUpperCase () {
     return text.split(" ").map(function(item) {
       return item.charAt(0).toUpperCase() + item.slice(1).toLowerCase();
     }).join(" ");
 }
-  console.log(firstLetterToUpperCase(text));
+console.log(firstLetterToUpperCase(text));
