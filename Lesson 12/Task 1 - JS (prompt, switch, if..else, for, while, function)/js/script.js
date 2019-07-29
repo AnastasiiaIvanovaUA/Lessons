@@ -58,7 +58,7 @@ while (i < 10) {
 
 
 // Функція приймає два параметри (числа) і повертає більший з них
-function MaxNumber (result1, result2) {
+function maxNumber (result1, result2) {
     var result1 = prompt("Введіть будь-яке число", 0);
     var result2 = prompt("Введіть ще одне будь-яке число", 0);
     if (result1 > result2) {
@@ -67,4 +67,4 @@ function MaxNumber (result1, result2) {
         return result2;
     }
 }
-console.log(MaxNumber ());
+console.log(maxNumber ());
