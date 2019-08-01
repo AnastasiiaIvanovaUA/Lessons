@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="col-xl-12"></div>
+    <div class="col-xl-12"></div>
+    <div class="col-xl-12"></div>
+
+    <div class="d-flex flex-row" id="container">
+        <div class="col-xl-2 offset-1">
+            <div class="input-group mb-3">
+
+                <input type="text" class="form-control"  aria-describedby="button-addon2" id="button-addon1">
+
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="Remove()">Remove</button>
+                </div>
+
+                <div id="out"></div>
+
+            </div>
+            <button type="button" class="btn btn-light" onclick="Add()">Add</button>
+        </div>
+
+        <div class="col-xl-2 offset-1">
+            <input type="text" name="text" id="text">
+            <div id="out0"></div>
+            <div class="col-xl-12"></div>
+            <button type="button" class="btn btn-success" id="Add" onclick="add()">Add</button>
+            <button type="button" class="btn btn-danger" onclick="remove()">Remove</button>
+        </div>
+    </div>
+
+
+
+
+
+    
+
+
+    <script src="js/script.js"></script>
+
+    
+
+    
+</body>
+</html>

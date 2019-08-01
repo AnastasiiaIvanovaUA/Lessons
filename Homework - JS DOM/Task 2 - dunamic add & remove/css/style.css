@@ -1,0 +1,8 @@
+.col-xl-12 {
+    height: 15px;
+}
+#text {
+    height: 38px;
+    border-radius: 4px; 
+    border: 1px solid gray;
+}

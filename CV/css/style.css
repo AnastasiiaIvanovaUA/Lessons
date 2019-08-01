@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {
+        width: 100vw;
+        max-width: 1300px;
+        height: 1450px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+@media screen {
+    
+    .header {
+        width: 100%;
+        height: 70px;
+        background: rgb(61, 61, 61);
+    }
+    nav ul{
+        display: flex;
+        font-size: 20px;
+    }
+    ul li {
+        list-style: none;
+        margin-right: 60px;
+        margin-top: 20px;
+    }
+    li a {
+        color: white;
+        text-decoration: none;
+    }
+    .introduction {
+        width: 800px;
+        height: 350px;
+        display: flex;
+        margin-top: 20px;
+    }
+    .content-introduction {
+        width: 810px;
+        height: 350px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .photo {
+        width: 230px;
+        height: 350px;
+    }
+    img {
+        width: 230px;
+        height: 350px;
+    }
+    .information-about-me {
+        width: 500px;
+        height: 350px;
+    }
+    .contact-print {
+        display: none;
+    }
+    h1 {
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 35px;
+    }
+    p {
+        line-height: 1.6;
+        font-size: 17px;
+        margin: 10px 0;
+    }
+    input {
+        width: 150px;
+        height: 50px;
+        border: 2px solid red;
+        color: red;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-right: 20px;
+        background: white;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    input:hover {
+        background: red;
+        color: white;
+        transition: all 0.5s;
+    }
+    .education {
+        width: 800px;
+        height: 520px;
+    }
+    #red {
+        color: red;
+    }
+    table {
+        margin-top: 35px;
+    }
+    td {
+        width: 390px;
+        text-align: right;
+    }
+    h2 {
+        margin: 25px 0;
+    }
+    #bold-size {
+        font-weight: 600;
+        margin: 25px 0;
+        text-align: left;
+    }
+    #gray {
+        color: gray;
+        margin-top: 10px;
+    }
+    .name-language {
+        font-weight: 600;
+        margin: 10px 0;
+    }
+    .experience {
+        width: 800px;
+        height: 520px;
+    }
+    .sidebar {
+        width: 420px;
+        height: 1300px;
+        margin-top: 10px;
+        text-align: right;
+    }
+    hr {
+        width: 790px;
+    }
+    #article {
+        display: none;
+    }
+    .stars {
+        text-align: right;
+    }
+    .star {
+        display: inline-block;
+        vertical-align: top;
+        width: 20px;
+        height: 20px;
+        background: linear-gradient(to bottom, rgba(197, 196, 196, 1) 0%, rgba(180, 179, 178, 1) 100%);
+        position: relative;
+    }
+    .star:before {
+        content: '';
+        position: absolute;
+        top: 1px;
+        left: 1px;
+        bottom: 1px;
+        right: 1px;
+        background: red;
+        z-index: 1;
+    }
+    .star, .star:before {
+        -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+        clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+    }
+}
+
+@media print {
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+    header {
+        display: none;
+    }
+    nav ul li {
+        display: none;
+    }
+    .contact-screen {
+        display: none;
+    }
+    .contact-print {
+        width: 220px;
+        height: 250px;
+        line-height: 1;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    #name {
+        font-size: 17px;
+        font-weight: 600;
+        margin: 5px 0;
+    }
+
+    .introduction {
+        width: 450px;
+        height: 260px;
+        display: flex;
+    }
+
+    .content-introduction {
+        width: 450px;
+        height: 260px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .photo {
+        width: 190px;
+        height: 250px;
+    }
+    img {
+        width: 190px;
+        height: 250px;
+    }
+    .information-about-me {
+        display: none;
+    }
+    p {
+        line-height: 1.4;
+        font-size: 14px;
+    }    
+    #article {
+        display: none;
+    }
+    .education {
+        width: 450px;
+        height: 250px;
+    }
+    .experience {
+        width: 450px;
+        height: 350px;
+    }
+    .none-print {
+        display: none;
+    }
+    .sidebar {
+        width: 240px;
+        height: 900px;
+    }
+    hr {
+        width: 430px;
+        margin: 10px 0;
+    }
+    table {
+        margin-top: 7px;
+    }
+    td {
+        width: 200px;
+        text-align: right;
+    }
+    h2 {
+        margin: 5px 0;
+        font-size: 16px;
+    }
+    #bold-size {
+        margin: 7px 0;
+        text-align: left;
+    }
+    #gray {
+        color: gray;
+    }
+    h3 {
+        margin: 15px 0;
+    }
+    .name-language {
+        margin: 7px 0;
+        font-weight: 600;
+    }
+    #red {
+        color: red;
+    }
+    #article {
+        display: block;
+        color: red;
+        font-size: 15px;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+    #bold-size {
+        font-weight: 600;
+        text-align: left;
+        color: black;
+        margin: 15px 0;
+    }
+    #gray {
+        color: gray;
+        margin: 10px 0;
+    }
+}
